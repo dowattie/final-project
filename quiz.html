@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- STYLES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Guess the Disney Movie</title>
+</head>
+<body>
+   
+    <section class="container flex-center flex-column">
+        
+         <!-- QUIZ FIELDS -->
+
+        <h2 id="question">Question</h2>
+
+        <div class="options-container">
+            <p class="option" data-number="1">option 1</p>
+        </div>
+
+        <div class="options-container">
+            <p class="option" data-number="2">option 2</p>
+        </div>
+        <div class="options-container">
+            <p class="option" data-number="3">option 3</p>
+        </div>
+        <div class="options-container">
+            <p class="option" data-number="4">option 4</p>
+        </div>
+        <br>
+        <!-- TRACKER BOARD for SCORE and PROGRESS -->
+        <div id="tacker-board">
+            <div class="tracker-item">
+                <p class="tracker-title">Progress</p>
+                <h2 class="tracker-text" id="progress"></h2>
+            </div>
+
+            <div class="tracker-item">
+                <p class="tracker-title">Score</p>
+                <h2 class="tracker-text" id="score">0</h2>
+            </div>
+        </div>
+
+        <a href="index.html" class="btn-small">Return Home</a>
+
+    </section>
+        
+
+    <footer>
+        <p>Created by Dowattie Nandkumar</p> 
+    </footer>
+    </div>
+    
+
+    <!-- Scripts -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+
+    <!-- confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</body>
+</html>

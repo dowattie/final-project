@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    color: #333;
+}
+
+body {
+    background-color: #fdeae7;
+}
+
+h1, 
+h2, 
+h3,
+h4 {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #149ec1;
+    margin: 2rem 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h4 {
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.white {
+    color: #fff;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+ 
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/* OPTIONS */
+
+.options-container {
+    width: 70%;
+}
+.option {
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid #b2928e;
+}
+
+.option:hover {
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(105, 105, 105, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+/* TRACKERS */
+#tacker-board {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: 0 auto;
+    border-top: 1px solid #dbbbb6;
+    border-bottom: 1px solid #dbbbb6;
+    margin-bottom: 2rem;
+    padding: 2rem 3rem 0;
+}
+
+.tracker-item {
+    text-align: center;
+}
+
+.tracker-text {
+    text-align: center;
+    color: #149ec1;
+}
+
+/* INSTRUCTIONS */
+#instructions {
+    display: none;
+    background-color: #333;
+    width: 500px;
+    padding: 2rem;
+}
+
+/* BUTTONS */
+.btn,
+.btn-small {
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    border: 1px solid  #dbbbb6;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background: #fff;
+}
+
+.btn-small {
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+
+.btn:hover,
+.btn-small:hover {
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(168, 164, 156, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.correct {
+    background-color: #14c16d !important;
+}
+
+.incorrect {
+    background-color: #fb3d3d;
+}
+
+
+/* FOOTER */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    background-color:#dbbbb6;
+}
